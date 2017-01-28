@@ -1,0 +1,14 @@
+I want to make a flask + Mongo task controller
+at initial stage it only has 1 collection to store the tasks
+later on, it should have an executors collections to store the executors
+
+#1 Install Mongo 
+  sudo apt-get install -y mongodb-org
+  mongod -f mongod.conf
+  
+#2 Activate virtualenv
+   virtualenv -p python3 venv
+   source venv/bin/activate
+   
+#3 Install flask
+    echo "Flask=0.12" > requirements.txt
